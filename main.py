@@ -113,6 +113,8 @@ def gameloop():
                 if event.key == pygame.K_d and 'd' in stlaceneKlavesi:
                     stlaceneKlavesi.remove('d')
 
+
+        #nejakazmena
         poziciamyse = pygame.mouse.get_pos()
         click = pygame.mouse.get_pressed()
         Displej.fill((0,255,0))
